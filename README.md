@@ -7,9 +7,3 @@ tusks through generations, even tho they were not being hunted.
 
 This project aims to simulate a population of elephants growing and reproducing through time to see the effects of the genetic 
 drift.
-
-
-
-
-
-![Sample of program](https://i.ibb.co/h9FkBh6/Capture-d-cran-de-2018-12-29-10-23-05.png)
