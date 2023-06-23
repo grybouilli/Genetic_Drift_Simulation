@@ -10,7 +10,7 @@
 const sf::Time Application::TimePerFrame = sf::seconds(1.f/30.f);
 
 Application::Application()
-: mWindow(sf::VideoMode::getDesktopMode(), "Where are the tusks?", sf::Style::Fullscreen | sf::Style::Close | sf::Style::Titlebar)
+: mWindow(sf::VideoMode(1920,1067), "Where are the tusks?",  sf::Style::Close | sf::Style::Titlebar)
 , mWorld(sf::FloatRect(0, 0, mWindow.getSize().x, mWindow.getSize().y), mTextures){
 	loadTextures();
 	mWorld.generateWorld(4, 2);
