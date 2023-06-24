@@ -71,10 +71,7 @@ Elephant_Base::Traits::Traits(TextureHolder& text, std::pair<Elephant_Base::Gene
 
 bool Elephant_Base::Traits::hasTusks(std::pair<Gene, Gene> g) {
 	
-	if(g.first == Elephant_Base::Gene::Xi || g.second == Elephant_Base::Gene::Xi)
-		return true;
-	else
-		return false;
+    return g.first == Elephant_Base::Gene::Xi || g.second == Elephant_Base::Gene::Xi;
 }
 
 Elephant_Base::Sex Elephant_Base::Traits::sexOf(std::pair<Gene, Gene> g) {

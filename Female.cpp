@@ -57,20 +57,12 @@ void Female_E::update(sf::Time dt) {
 
 bool Female_E::canGetPregnant() const {
 	
-	if(mChild || mIsPregnant || getTraits().age > 50 || getTraits().age < 25)
-		return false;
-		
-	else
-		return true;
+    return !(mChild || mIsPregnant || getTraits().age > 50 || getTraits().age < 25);
 }
 
 bool Female_E::hasChildGrown() const {
 	
-	if(mChild.getTraits().age > 4)
-		return true;
-		
-	else
-		return false;
+	return mChild.getTraits().age > 4;
 }
 
 Elephant_Base::Ptr Female_E::detachChild() {
