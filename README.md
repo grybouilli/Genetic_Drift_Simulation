@@ -1,13 +1,11 @@
 # Genetic Drift Simulation : Where are the tusks ?
 ## About the project
 
-This is an old-ish project I did when I was in highschool and was learning C++ on my own for game dev purpose. Below is what I wrote about it back at the time:
+This is an old-ish project I did back in my senior year, when I was teaching myself C++ and SFML. 
 
 ### Simulation of genetic drift on elephants and their tusks
 
-This is a little personnal project inspired from a homework we had in biology. The subject was about genetic drift amongst 
-elephants. It was observed that a population of elephants which were put in a protected park ended up with no 
-tusks through generations, even tho they were not being hunted. 
+During a biology course, we learned about genetic drift and its effect on elephants and their tusks. Elephants living in areas where hunters are active tend to be born tusksless because of natural selection. However, an experience led to observe that a population of elephants which were put in a protected park still ended up with no tusks as generations advanced - even tho they were not being hunted.
 
 This project aims to simulate a population of elephants growing and reproducing through time to see the effects of the genetic 
 drift.
